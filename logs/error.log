@@ -1,0 +1,77 @@
+2023-04-14 16:14:54.748 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2023-04-14 16:22:41.033 [main] ERROR com.zaxxer.hikari.HikariConfig  Failed to load driver class com.mysql.cj.jdbc.Driver from HikariConfig class classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-04-14 16:22:41.062 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.datasource.hikari' to javax.sql.DataSource:
+
+    Property: spring.datasource.hikari.driver-class-name
+    Value: com.mysql.cj.jdbc.Driver
+    Origin: class path resource [application.yml] - 14:26
+    Reason: Failed to load driver class com.mysql.cj.jdbc.Driver in either of HikariConfig class loader or Thread context classloader
+
+Action:
+
+Update your application's configuration
+
+2023-04-14 16:23:22.449 [main] ERROR com.zaxxer.hikari.HikariConfig  Failed to load driver class com.mysql.cj.jdbc.Driver from HikariConfig class classloader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-04-14 16:23:22.474 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.datasource.hikari' to javax.sql.DataSource:
+
+    Property: spring.datasource.hikari.driver-class-name
+    Value: com.mysql.cj.jdbc.Driver
+    Origin: class path resource [application.yml] - 14:26
+    Reason: Failed to load driver class com.mysql.cj.jdbc.Driver in either of HikariConfig class loader or Thread context classloader
+
+Action:
+
+Update your application's configuration
+
+2023-04-14 16:55:47.348 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field loginIntercepter in com.openAi.yunchat.core.config.WebMvcConfig required a bean of type 'com.openAi.yunchat.core.security.LoginIntercepter' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.openAi.yunchat.core.security.LoginIntercepter' in your configuration.
+

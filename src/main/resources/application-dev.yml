@@ -1,0 +1,22 @@
+db:
+  host: 127.0.0.1
+  port: 3306
+  name: learn_demo
+  username: root
+  password: 123456
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  password: 123456
+  database: 1
+
+
+mybatis-plus:
+  configuration:
+    # 控制台打印sql
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+jwt:
+  config:
+    key: dafaf7899456 #token加密密钥
+    expired-time: 14400000 #4小时

@@ -1,0 +1,12 @@
+db:
+  host: 127.0.0.1
+  port: 3306
+  name: learn
+  username: root
+  password: 123456
+
+jwt:
+  config:
+    key: 879797979ddd #token加密密钥
+    expired-time: 14400000 #4小时
+

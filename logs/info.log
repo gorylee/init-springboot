@@ -1,0 +1,125 @@
+2023-04-14 16:14:52.935 [main] INFO  com.example.yunchat.YunchatApplication  Starting YunchatApplication using Java 1.8.0_351 on liguanyu with PID 21612 (D:\workCode2\yunchat\target\classes started by Administrator in D:\workCode2\yunchat)
+2023-04-14 16:14:52.942 [main] INFO  com.example.yunchat.YunchatApplication  The following profiles are active: dev
+2023-04-14 16:14:54.392 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  Tomcat initialized with port(s): 4003 (http)
+2023-04-14 16:14:54.398 [main] INFO  org.apache.coyote.http11.Http11NioProtocol  Initializing ProtocolHandler ["http-nio-4003"]
+2023-04-14 16:14:54.399 [main] INFO  org.apache.catalina.core.StandardService  Starting service [Tomcat]
+2023-04-14 16:14:54.405 [main] INFO  org.apache.catalina.core.StandardEngine  Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-04-14 16:14:54.470 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/yunchat]  Initializing Spring embedded WebApplicationContext
+2023-04-14 16:14:54.470 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext  Root WebApplicationContext: initialization completed in 1213 ms
+2023-04-14 16:14:54.602 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor  Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-14 16:14:54.723 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor  Shutting down ExecutorService 'applicationTaskExecutor'
+2023-04-14 16:14:54.726 [main] INFO  org.apache.catalina.core.StandardService  Stopping service [Tomcat]
+2023-04-14 16:14:54.734 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener  
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-14 16:22:09.450 [main] INFO  com.example.yunchat.YunchatApplication  Starting YunchatApplication using Java 1.8.0_351 on liguanyu with PID 22208 (D:\workCode2\yunchat\target\classes started by Administrator in D:\workCode2\yunchat)
+2023-04-14 16:22:09.452 [main] INFO  com.example.yunchat.YunchatApplication  The following profiles are active: dev
+2023-04-14 16:22:10.170 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  Tomcat initialized with port(s): 4003 (http)
+2023-04-14 16:22:10.177 [main] INFO  org.apache.coyote.http11.Http11NioProtocol  Initializing ProtocolHandler ["http-nio-4003"]
+2023-04-14 16:22:10.177 [main] INFO  org.apache.catalina.core.StandardService  Starting service [Tomcat]
+2023-04-14 16:22:10.178 [main] INFO  org.apache.catalina.core.StandardEngine  Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-04-14 16:22:10.237 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/yunchat]  Initializing Spring embedded WebApplicationContext
+2023-04-14 16:22:10.238 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext  Root WebApplicationContext: initialization completed in 752 ms
+2023-04-14 16:22:10.413 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor  Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-14 16:22:10.720 [main] INFO  org.apache.coyote.http11.Http11NioProtocol  Starting ProtocolHandler ["http-nio-4003"]
+2023-04-14 16:22:10.733 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  Tomcat started on port(s): 4003 (http) with context path '/yunchat'
+2023-04-14 16:22:10.740 [main] INFO  com.example.yunchat.YunchatApplication  Started YunchatApplication in 1.702 seconds (JVM running for 2.213)
+2023-04-14 16:22:32.220 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor  Shutting down ExecutorService 'applicationTaskExecutor'
+2023-04-14 16:22:40.100 [main] INFO  com.example.yunchat.YunchatApplication  Starting YunchatApplication using Java 1.8.0_351 on liguanyu with PID 19388 (D:\workCode2\yunchat\target\classes started by Administrator in D:\workCode2\yunchat)
+2023-04-14 16:22:40.103 [main] INFO  com.example.yunchat.YunchatApplication  The following profiles are active: dev
+2023-04-14 16:22:40.904 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  Tomcat initialized with port(s): 4003 (http)
+2023-04-14 16:22:40.911 [main] INFO  org.apache.coyote.http11.Http11NioProtocol  Initializing ProtocolHandler ["http-nio-4003"]
+2023-04-14 16:22:40.912 [main] INFO  org.apache.catalina.core.StandardService  Starting service [Tomcat]
+2023-04-14 16:22:40.912 [main] INFO  org.apache.catalina.core.StandardEngine  Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-04-14 16:22:40.980 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/yunchat]  Initializing Spring embedded WebApplicationContext
+2023-04-14 16:22:40.980 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext  Root WebApplicationContext: initialization completed in 838 ms
+2023-04-14 16:22:41.040 [main] INFO  org.apache.catalina.core.StandardService  Stopping service [Tomcat]
+2023-04-14 16:22:41.049 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener  
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-14 16:23:21.589 [main] INFO  com.example.yunchat.YunchatApplication  Starting YunchatApplication using Java 1.8.0_351 on liguanyu with PID 18444 (D:\workCode2\yunchat\target\classes started by Administrator in D:\workCode2\yunchat)
+2023-04-14 16:23:21.593 [main] INFO  com.example.yunchat.YunchatApplication  The following profiles are active: dev
+2023-04-14 16:23:22.327 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  Tomcat initialized with port(s): 4003 (http)
+2023-04-14 16:23:22.334 [main] INFO  org.apache.coyote.http11.Http11NioProtocol  Initializing ProtocolHandler ["http-nio-4003"]
+2023-04-14 16:23:22.335 [main] INFO  org.apache.catalina.core.StandardService  Starting service [Tomcat]
+2023-04-14 16:23:22.335 [main] INFO  org.apache.catalina.core.StandardEngine  Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-04-14 16:23:22.398 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/yunchat]  Initializing Spring embedded WebApplicationContext
+2023-04-14 16:23:22.399 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext  Root WebApplicationContext: initialization completed in 769 ms
+2023-04-14 16:23:22.454 [main] INFO  org.apache.catalina.core.StandardService  Stopping service [Tomcat]
+2023-04-14 16:23:22.462 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener  
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-14 16:23:46.284 [main] INFO  com.example.yunchat.YunchatApplication  Starting YunchatApplication using Java 1.8.0_351 on liguanyu with PID 2720 (D:\workCode2\yunchat\target\classes started by Administrator in D:\workCode2\yunchat)
+2023-04-14 16:23:46.287 [main] INFO  com.example.yunchat.YunchatApplication  The following profiles are active: dev
+2023-04-14 16:23:46.998 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  Tomcat initialized with port(s): 4003 (http)
+2023-04-14 16:23:47.005 [main] INFO  org.apache.coyote.http11.Http11NioProtocol  Initializing ProtocolHandler ["http-nio-4003"]
+2023-04-14 16:23:47.006 [main] INFO  org.apache.catalina.core.StandardService  Starting service [Tomcat]
+2023-04-14 16:23:47.006 [main] INFO  org.apache.catalina.core.StandardEngine  Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-04-14 16:23:47.069 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/yunchat]  Initializing Spring embedded WebApplicationContext
+2023-04-14 16:23:47.069 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext  Root WebApplicationContext: initialization completed in 747 ms
+2023-04-14 16:23:47.246 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor  Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-14 16:23:47.525 [main] INFO  org.apache.coyote.http11.Http11NioProtocol  Starting ProtocolHandler ["http-nio-4003"]
+2023-04-14 16:23:47.538 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  Tomcat started on port(s): 4003 (http) with context path '/yunchat'
+2023-04-14 16:23:47.546 [main] INFO  com.example.yunchat.YunchatApplication  Started YunchatApplication in 1.679 seconds (JVM running for 2.232)
+2023-04-14 16:26:03.065 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor  Shutting down ExecutorService 'applicationTaskExecutor'
+2023-04-14 16:26:20.657 [main] INFO  com.openAi.yunchat.YunchatApplication  Starting YunchatApplication using Java 1.8.0_351 on liguanyu with PID 10200 (D:\workCode2\yunchat\target\classes started by Administrator in D:\workCode2\yunchat)
+2023-04-14 16:26:20.659 [main] INFO  com.openAi.yunchat.YunchatApplication  The following profiles are active: dev
+2023-04-14 16:26:21.382 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  Tomcat initialized with port(s): 4003 (http)
+2023-04-14 16:26:21.389 [main] INFO  org.apache.coyote.http11.Http11NioProtocol  Initializing ProtocolHandler ["http-nio-4003"]
+2023-04-14 16:26:21.389 [main] INFO  org.apache.catalina.core.StandardService  Starting service [Tomcat]
+2023-04-14 16:26:21.389 [main] INFO  org.apache.catalina.core.StandardEngine  Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-04-14 16:26:21.454 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/yunchat]  Initializing Spring embedded WebApplicationContext
+2023-04-14 16:26:21.454 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext  Root WebApplicationContext: initialization completed in 759 ms
+2023-04-14 16:26:21.634 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor  Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-14 16:26:21.918 [main] INFO  org.apache.coyote.http11.Http11NioProtocol  Starting ProtocolHandler ["http-nio-4003"]
+2023-04-14 16:26:21.931 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  Tomcat started on port(s): 4003 (http) with context path '/yunchat'
+2023-04-14 16:26:21.939 [main] INFO  com.openAi.yunchat.YunchatApplication  Started YunchatApplication in 1.695 seconds (JVM running for 2.223)
+2023-04-14 16:26:25.372 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor  Shutting down ExecutorService 'applicationTaskExecutor'
+2023-04-14 16:55:46.305 [main] INFO  com.openAi.yunchat.YunchatApplication  Starting YunchatApplication using Java 1.8.0_351 on liguanyu with PID 21108 (D:\workCode2\yunchat\target\classes started by Administrator in D:\workCode2\yunchat)
+2023-04-14 16:55:46.307 [main] INFO  com.openAi.yunchat.YunchatApplication  The following profiles are active: dev
+2023-04-14 16:55:46.972 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate  Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-14 16:55:46.973 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-14 16:55:46.992 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate  Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-04-14 16:55:47.332 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener  
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-14 16:57:45.413 [main] INFO  com.openAi.yunchat.YunchatApplication  Starting YunchatApplication using Java 1.8.0_351 on liguanyu with PID 21924 (D:\workCode2\yunchat\target\classes started by Administrator in D:\workCode2\yunchat)
+2023-04-14 16:57:45.416 [main] INFO  com.openAi.yunchat.YunchatApplication  The following profiles are active: dev
+2023-04-14 16:57:46.087 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate  Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-14 16:57:46.088 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-14 16:57:46.108 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate  Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-04-14 16:57:46.551 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  Tomcat initialized with port(s): 4003 (http)
+2023-04-14 16:57:46.558 [main] INFO  org.apache.coyote.http11.Http11NioProtocol  Initializing ProtocolHandler ["http-nio-4003"]
+2023-04-14 16:57:46.558 [main] INFO  org.apache.catalina.core.StandardService  Starting service [Tomcat]
+2023-04-14 16:57:46.559 [main] INFO  org.apache.catalina.core.StandardEngine  Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-04-14 16:57:46.623 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/yunchat]  Initializing Spring embedded WebApplicationContext
+2023-04-14 16:57:46.623 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext  Root WebApplicationContext: initialization completed in 1169 ms
+2023-04-14 16:57:47.184 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping  Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-04-14 16:57:47.252 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor  Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-14 16:57:47.566 [main] INFO  org.apache.coyote.http11.Http11NioProtocol  Starting ProtocolHandler ["http-nio-4003"]
+2023-04-14 16:57:47.579 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  Tomcat started on port(s): 4003 (http) with context path '/yunchat'
+2023-04-14 16:57:47.580 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper  Context refreshed
+2023-04-14 16:57:47.597 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper  Found 1 custom documentation plugin(s)
+2023-04-14 16:57:47.627 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner  Scanning for api listing references
+2023-04-14 16:57:47.649 [main] INFO  com.openAi.yunchat.YunchatApplication  Started YunchatApplication in 2.68 seconds (JVM running for 3.223)
+2023-04-14 16:58:31.415 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor  Shutting down ExecutorService 'applicationTaskExecutor'
+2023-04-14 17:06:34.074 [main] INFO  com.openAi.yunchat.YunchatApplication  Starting YunchatApplication using Java 1.8.0_351 on liguanyu with PID 20600 (D:\workCode2\init-springboot\target\classes started by Administrator in D:\workCode2\init-springboot)
+2023-04-14 17:06:34.077 [main] INFO  com.openAi.yunchat.YunchatApplication  The following profiles are active: dev
+2023-04-14 17:06:34.741 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate  Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-04-14 17:06:34.743 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate  Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-14 17:06:34.763 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate  Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-04-14 17:06:35.174 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  Tomcat initialized with port(s): 4003 (http)
+2023-04-14 17:06:35.181 [main] INFO  org.apache.coyote.http11.Http11NioProtocol  Initializing ProtocolHandler ["http-nio-4003"]
+2023-04-14 17:06:35.182 [main] INFO  org.apache.catalina.core.StandardService  Starting service [Tomcat]
+2023-04-14 17:06:35.182 [main] INFO  org.apache.catalina.core.StandardEngine  Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-04-14 17:06:35.246 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/yunchat]  Initializing Spring embedded WebApplicationContext
+2023-04-14 17:06:35.246 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext  Root WebApplicationContext: initialization completed in 1133 ms
+2023-04-14 17:06:35.794 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping  Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-04-14 17:06:35.862 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor  Initializing ExecutorService 'applicationTaskExecutor'
+2023-04-14 17:06:36.180 [main] INFO  org.apache.coyote.http11.Http11NioProtocol  Starting ProtocolHandler ["http-nio-4003"]
+2023-04-14 17:06:36.195 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  Tomcat started on port(s): 4003 (http) with context path '/yunchat'
+2023-04-14 17:06:36.196 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper  Context refreshed
+2023-04-14 17:06:36.213 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper  Found 1 custom documentation plugin(s)
+2023-04-14 17:06:36.246 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner  Scanning for api listing references
+2023-04-14 17:06:36.267 [main] INFO  com.openAi.yunchat.YunchatApplication  Started YunchatApplication in 2.614 seconds (JVM running for 3.158)
+2023-04-14 17:06:39.677 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor  Shutting down ExecutorService 'applicationTaskExecutor'

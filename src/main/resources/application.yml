@@ -1,0 +1,65 @@
+server:
+  port: 4003
+  servlet:
+    context-path: /yunchat
+
+spring:
+  profiles:
+    active: @profiles.active@
+  application:
+    name: yunchat
+  datasource:
+    hikari:
+      jdbc-url: jdbc:mysql://${db.host}:${db.port}/${db.name}?useSSL=false&allowMultiQueries=true&allowPublicKeyRetrieval=true&nullCatalogMeansCurrent=true
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: ${db.username}
+      password: ${db.password}
+      # 最大的数据库连接池的大小
+      maximum-pool-size: 100
+      # 最小的空闲连接个数
+      minimum-idle: 10
+      # 空闲连接的超时
+      idle-timeout: 600000
+      # 连接的超时
+      connection-timeout: 30000
+      # 每个连接最大存活多久
+      max-lifetime: 1800000
+  mvc:
+    format:
+      date: yyyy-MM-dd
+    static-path-pattern: /**
+  servlet:
+    multipart:
+      max-file-size: 1000MB
+      max-request-size: 100MB
+  redis:
+    host: ${redis.host}
+    port: ${redis.port}
+    password: ${redis.password}
+    jedis:
+      pool:
+        max-idle: 2000
+        min-idle: 2000
+        max-active: 2000
+        max-wait: 1000
+    database: ${redis.database}
+  cache:
+    redis:
+      time-to-live: 86400
+
+# 日志
+logging:
+  config: classpath:config/logback-spring.xml
+
+
+# 持久层框架
+mybatis-plus:
+  mapper-locations: classpath:mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+  configuration:
+    call-setters-on-nulls: true
+
+
+
