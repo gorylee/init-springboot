@@ -42,7 +42,6 @@ public class WebMvcConfig implements WebMvcConfigurer {
         excludePathPatterns.addAll(Arrays.asList("/doc.html/**","/swagger-resources/**","/webjars/**","/v2/**","/swagger-ui.html/**"));
         excludePathPatterns.add("/uc/user/login");
         excludePathPatterns.add("/api/**");
-        excludePathPatterns.add("/fi/repayPlan/nextMonthRepayPlanInfo");
         registration.excludePathPatterns(excludePathPatterns.toArray(new String[excludePathPatterns.size()]));
     }
 

@@ -28,7 +28,7 @@ public class Swagger2Config {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())//定义api文档汇总信息
                 .enable(true)
-                .select().apis(RequestHandlerSelectors.basePackage("com.xl.finance.module"))//指定扫描controller位置
+                .select().apis(RequestHandlerSelectors.basePackage("com.openAi.yunchat.module"))//指定扫描controller位置
                 .paths(PathSelectors.any())//所有controller
                 .build();
     }
@@ -36,10 +36,10 @@ public class Swagger2Config {
     private ApiInfo apiInfo(){
         return new ApiInfoBuilder()
                 .title("api")//文档标题
-                .contact(new Contact("砯崖","https://www.bugyy.com","double_hill@163.com"))
+                .contact(new Contact("goryLee","https://www.2121212.com","dddddddddd@163.com"))
                 .description("我是一条酸菜鱼,又酸又菜又多鱼~~~")//详细信息
                 .version("1.0.1")//版本号
-                .termsOfServiceUrl("https://www.bugyy.com")//网站地址
+                .termsOfServiceUrl("https://www.2121212.com")//网站地址
                 .build();
 
 

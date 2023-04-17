@@ -19,8 +19,6 @@ import java.util.Map;
 
 /**
  * @Description 接口出入参日志打印切面
- * @Author GoryLee
- * @Date 2023/3/28
  */
 //@Component
 //@Aspect

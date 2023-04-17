@@ -3,11 +3,6 @@ package com.openAi.yunchat.core.enums;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/**
- * @Author: pumpkin
- * @Date: 2022/09/01/17:04
- * @Description:
- */
 public enum BoolValEnum {
 
     FALSE(0,"否"),
