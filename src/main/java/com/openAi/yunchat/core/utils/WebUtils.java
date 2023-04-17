@@ -26,10 +26,6 @@ import java.net.UnknownHostException;
 import java.util.List;
 import java.util.Objects;
 
-/**
- * @author WeiC
- * @date 2020/8/4 15:39
- */
 @Component
 @Slf4j
 public class WebUtils {
